@@ -1,18 +1,25 @@
+*{
+  font: size 16px;
+}
+
 .container{
   height: 100vh;
 
   display: grid;
-  grid-template-columns: 200px auto 200px;
+  grid-template-columns: 1fr 4fr 1fr;
   grid-column-gap: 10px;
-  grid-template-rows: 200px auto 200px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   cursor: cell;
+
 }
 
 .delta{
-  font-size: 100px;
+font-size: 8rem;
   color: rgb(196, 178, 192);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   user-select: none;
+  
+
 }
 
 
@@ -21,17 +28,17 @@
   color: rgb(255, 255, 255);
   /* border: solid 1px black; */
   text-align: center;
-  margin: 0;
-  font-size: 38px;
+  margin: 0 auto;
+
   grid-column: 2;
-  grid-row: 2 / 3;
+  grid-row: 1 / 4;
   grid-row-gap: 20px;
 }
 
 .lyrics{
-  font-size: 32px;
+  font-size: 1.2rem;
 font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   color: rgb(100, 100, 100);
-  /* color: black; */
+  text-shadow: 2px white;
 }
