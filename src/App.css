@@ -15,9 +15,11 @@
 
 .delta{
 font-size: 8rem;
-  color: rgb(196, 178, 192);
+  color: rgb(53, 50, 50);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   user-select: none;
+  text-shadow: 4px 4px rgb(201, 201, 201);
+
   
 
 }
@@ -39,6 +41,6 @@ font-size: 8rem;
   font-size: 1.2rem;
 font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
-  color: rgb(100, 100, 100);
-  text-shadow: 2px white;
+  color: rgb(181, 181, 181);
+  text-shadow: 4px 4px black;
 }
