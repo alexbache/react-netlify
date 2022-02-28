@@ -3,10 +3,6 @@ import "./App.css";
 import { lyrics } from "./lyrics";
 
 class Lyric extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="lyricbox">
